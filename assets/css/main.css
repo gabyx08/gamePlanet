@@ -1,0 +1,17 @@
+.brand-logo img {
+    width: 5em;
+    margin-left: 2vw;
+}
+
+ul li a {
+    width: 10vw;
+}
+
+.nav-wrapper {
+    background-color: #ff0033;
+}
+
+#uno {
+    height: 100%;
+    background-color: aquamarine;
+}
