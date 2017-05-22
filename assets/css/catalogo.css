@@ -1,26 +1,32 @@
-.imagenCatalogo{
-  width:100%;
+.imagenCatalogo {
+    width: 100%;
 }
-.header{
-  font-family: "Roboto-Bold.woff";
-  font-size: 2vw;
+
+.header {
+    font-family: "Roboto-Bold.woff";
+    font-size: 2vw;
 }
-.link-catalogo{
-  text-align: right;
-  font-size: 1vw;
-  color: #000;
+
+.link-catalogo {
+    text-align: right;
+    font-size: 1vw;
+    color: #000;
 }
-.titulos-principales{
-  font-size: 1.2vw;
-  color: #0e69c6;
+
+.titulos-principales {
+    font-size: 1.2vw;
+    color: #0e69c6;
 }
-.titulos-h6{
-  font-size: .8vw;
+
+.titulos-h6 {
+    font-size: .8vw;
 }
-.titulo-tienda{
-  font-size: 1vw;
+
+.titulo-tienda {
+    font-size: 1vw;
 }
-.titulo-domicilio{
-  font-size:1.5vw;
-  color: #f13340;
+
+.titulo-domicilio {
+    font-size: 1.5vw;
+    color: #f13340;
 }
