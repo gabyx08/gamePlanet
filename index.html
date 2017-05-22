@@ -3,28 +3,26 @@
 
 <head>
     <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="assets/css/home.css">
-      <link rel="stylesheet" href="assets/css/main.css">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <!--Código jQuery-->
-         <script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous">
-        </script>
-      <script>
-          $(document).ready(function(){
-        $(".carousel").carousel({fullWidth: true});
-        $('.carousel').carousel();
-          setInterval(function() {
-            $('.carousel').carousel('next');
-           }, 2000);
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Código jQuery-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $(".carousel").carousel({
+                fullWidth: true
+            });
+            $('.carousel').carousel();
+            setInterval(function() {
+                $('.carousel').carousel('next');
+            }, 2000);
         });
-      </script>
+    </script>
 </head>
 
 <body>
@@ -43,21 +41,21 @@
     </header>
     <!-- header FIN- Diana -->
     <!--CAROUSEL ITZEL-->
-      <div class="container-fluid">
+    <div class="container-fluid">
         <div class="carousel carousel-slider center" data-indicators="true">
-          <div class="carousel carousel-slider">
-            <div class="carousel-fixed-item center">
-                <a class="btn waves-effect white grey-text darken-text-2">Ver catálogo</a>
+            <div class="carousel carousel-slider">
+                <div class="carousel-fixed-item center">
+                    <a class="btn waves-effect white grey-text darken-text-2">Ver catálogo</a>
+                </div>
+                <a class="carousel-item" href="#one!"><img src="assets/imgcarousel/xbox-one.jpg"></a>
+                <a class="carousel-item" href="#two!"><img src="assets/imgcarousel/xboxone.jpg"></a>
+                <a class="carousel-item" href="#three!"><img src="assets/imgcarousel/nintendo1.jpg"></a>
+                <a class="carousel-item" href="#four!"><img src="assets/imgcarousel/nintendo2.jpg"></a>
+                <a class="carousel-item" href="#four!"><img src="assets/imgcarousel/ps4juego.jpg"></a>
+                <a class="carousel-item" href="#four!"><img src="assets/imgcarousel/oferta.png"></a>
             </div>
-            <a class="carousel-item" href="#one!"><img src="assets/imgcarousel/xbox-one.jpg"></a>
-            <a class="carousel-item" href="#two!"><img src="assets/imgcarousel/xboxone.jpg"></a>
-            <a class="carousel-item" href="#three!"><img src="assets/imgcarousel/nintendo1.jpg"></a>
-            <a class="carousel-item" href="#four!"><img src="assets/imgcarousel/nintendo2.jpg"></a>
-            <a class="carousel-item" href="#four!"><img src="assets/imgcarousel/ps4juego.jpg"></a>
-            <a class="carousel-item" href="#four!"><img src="assets/imgcarousel/oferta.png"></a>
-          </div>
         </div>
-      </div>
+    </div>
     <!--termina CAROUSEL ITZEL-->
 
     <!--Import jQuery before materialize.js-->
