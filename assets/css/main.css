@@ -1,3 +1,4 @@
+
 body {
    display: flex;
    min-height: 100vh;
@@ -28,4 +29,21 @@ body {
   border-radius: 10px;
   background: white;
   color: rgb(54, 53, 53);
+}
+.brand-logo img {
+    width: 5em;
+    margin-left: 2vw;
+}
+
+ul li a {
+    width: 10vw;
+}
+
+.nav-wrapper {
+    background-color: #ff0033;
+}
+
+#uno {
+    height: 100%;
+    background-color: aquamarine;
 }
